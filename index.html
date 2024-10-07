@@ -535,9 +535,8 @@
     });
 
   </script>
+
   <script>
-
-
     document.addEventListener('DOMContentLoaded', function () {
       var links = document.querySelectorAll('.join_link')
 
@@ -547,19 +546,16 @@
 
           var url = this.href
 
-          // Переходимо за посиланням
           window.location.href = url
 
-          // Встановлюємо таймер для закриття веб-додатка
           setTimeout(function () {
             if (window.Telegram && window.Telegram.WebApp) {
               Telegram.WebApp.close()
             }
-          }, 100) // 100 мс затримки
+          }, 100)
         })
       }
     });
-
   </script>
 </body>
 
