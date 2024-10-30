@@ -1263,6 +1263,17 @@ main {
 .more_question .container .instagram:not(:last-child), .more_question .container .telegram:not(:last-child) {
   margin-bottom: 12px;
 }
+.more_question .container .docs {
+  display: block;
+  margin: 40px auto 0;
+  text-align: center;
+  color: #fff;
+  font-family: Neucha;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: underline;
+}
 .more_question .container > p {
   margin-top: 28px;
   font-family: Neucha;

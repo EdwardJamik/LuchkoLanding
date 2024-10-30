@@ -1328,6 +1328,18 @@ main {
       }
     }
 
+    & .docs {
+      display: block;
+      margin: 40px auto 0;
+      text-align: center;
+      color: #fff;
+      font-family: Neucha;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 20px;
+      text-decoration: underline;
+    }
+
     & > p {
       margin-top: 28px;
       font-family: Neucha;
