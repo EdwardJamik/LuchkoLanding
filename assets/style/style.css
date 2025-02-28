@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@font-face {
+  font-family: "Calmius Sans";
+  src: local("Calmius Sans Low"), local("Calmius-Sans-Low"), url("../font/CalmiusSans-Low.woff2") format("woff2"), url("../font/CalmiusSans-Low.woff") format("woff"), url("../font/CalmiusSans-Low.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 *,
 *:before,
 *:after {
@@ -259,15 +265,17 @@ main {
 }
 .top_content .container h1 {
   position: relative;
-  font-family: Dela Gothic One;
-  font-size: 40px;
-  font-weight: 400;
+  font-family: "Calmius Sans";
+  font-size: 46px;
+  font-weight: 600;
   line-height: 48px;
   text-align: center;
   padding-bottom: 34px;
-  padding: 0 15px 24px;
+  padding: 0 83px 24px;
 }
 .top_content .container h1 span {
+  font-family: "Calmius Sans";
+  font-weight: 600;
   color: #d42222;
 }
 .top_content .container h1::before {
@@ -278,7 +286,7 @@ main {
   background-image: url("/assets/images/Group.svg");
   background-repeat: no-repeat;
   background-position: center;
-  bottom: 0;
+  bottom: -8px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -446,7 +454,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-  font-family: Dela Gothic One;
+  font-family: "Calmius Sans";
   font-size: 32px;
   font-weight: 400;
   line-height: 40px;
@@ -457,6 +465,9 @@ main {
 }
 .about_me .container h2 span {
   display: flex;
+  font-family: "Calmius Sans";
+  font-weight: 800;
+  font-size: 46px;
 }
 .about_me .container h2 span:last-child {
   margin-left: auto;
