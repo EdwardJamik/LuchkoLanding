@@ -30,13 +30,10 @@ main {
     left: 0;
     right: 0;
     bottom: 20.8vh;
-    height: 68vh;
+    height: 54vh;
     width: 100%;
-    // background-image: url(/assets/images/fire_bg.gif);
-    // background-repeat: no-repeat;
-    // background-position: bottom;
-    // background-size: cover;
     mix-blend-mode: screen;
+    object-fit: cover;
     z-index: -2;
   }
 

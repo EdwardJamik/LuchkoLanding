@@ -199,9 +199,11 @@ main {
   left: 0;
   right: 0;
   bottom: 20.8vh;
-  height: 68vh;
+  height: 54vh;
   width: 100%;
   mix-blend-mode: screen;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: -2;
 }
 .top_content::after {
