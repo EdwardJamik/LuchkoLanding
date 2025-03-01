@@ -386,9 +386,28 @@ main {
         text-align: left;
         padding: 5px 8px;
         border: 1px solid #fff;
-        left: 58px;
-        top: 32px;
+        left: 12px;
+        top: 0;
         text-align: center;
+
+        @media screen and (max-width: 400px) {
+          position: absolute;
+          background: #141414;
+          max-width: 178px;
+          height: 82px;
+          width: 100%;
+          border-radius: 12px;
+          font-family: Calmius Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 20px;
+          text-align: left;
+          padding: 6px 2px;
+          border: 1px solid #fff;
+          left: 10px;
+          top: 0;
+          text-align: center;
+        }
 
         &::before {
           content: " ";
@@ -623,7 +642,7 @@ main {
         border-radius: 20px;
         padding: 30px 24px 24px;
 
-        height: 200px;
+        height: auto;
 
         &:not(:last-child) {
           margin-bottom: 30px;
