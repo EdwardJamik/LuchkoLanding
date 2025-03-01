@@ -104,18 +104,16 @@ main {
     & h1 {
       position: relative;
       //styleName: H/1;
-      font-family: "Calmius Sans";
-      font-size: 46px;
-      font-weight: 600;
+      font-family: Dela Gothic One;
+      font-size: 40px;
+      font-weight: 400;
       line-height: 48px;
       text-align: center;
       padding-bottom: 34px;
 
-      // padding: 0 15px 24px;
-      padding: 0 83px 24px;
+      padding: 0 15px 24px;
+
       & span {
-        font-family: "Calmius Sans";
-        font-weight: 600;
         color: #d42222;
       }
 
@@ -334,7 +332,7 @@ main {
       display: flex;
       flex-direction: column;
       margin-top: 50px;
-      font-family: "Calmius Sans";
+      font-family: Dela Gothic One;
       font-size: 32px;
       font-weight: 400;
       line-height: 40px;
@@ -345,9 +343,6 @@ main {
 
       & span {
         display: flex;
-        font-family: "Calmius Sans";
-        font-weight: 800;
-        font-size: 46px;
         &:last-child {
           margin-left: auto;
         }
@@ -380,18 +375,20 @@ main {
       & .comment {
         position: absolute;
         background: #141414;
-        max-width: 148px;
-        height: 90px;
+        max-width: 189px;
+        height: 82px;
+        width: 100%;
         border-radius: 12px;
-        font-family: Neucha;
+        font-family: Calmius Sans;
         font-size: 16px;
         font-weight: 400;
         line-height: 20px;
         text-align: left;
         padding: 5px 8px;
         border: 1px solid #fff;
-        left: 70px;
-        top: 18px;
+        left: 58px;
+        top: 32px;
+        text-align: center;
 
         &::before {
           content: " ";
@@ -626,7 +623,7 @@ main {
         border-radius: 20px;
         padding: 30px 24px 24px;
 
-        height: 188px;
+        height: 200px;
 
         &:not(:last-child) {
           margin-bottom: 30px;
@@ -675,8 +672,8 @@ main {
           display: flex;
 
           & .icon {
-            background: #141414;
-            max-width: 40px;
+            // background: #141414;
+            max-width: 24px;
             width: 100%;
             height: 40px;
             border-radius: 4px;
@@ -914,7 +911,7 @@ main {
           & .left_side {
             & h5 {
               font-family: Dela Gothic One;
-              font-size: 20px;
+              font-size: 28px;
               font-weight: 400;
               line-height: 28px;
               text-align: left;
@@ -998,7 +995,6 @@ main {
 
         & .price {
           margin-top: 52px;
-          margin-bottom: 24px;
 
           font-family: Dela Gothic One;
           font-size: 40px;
@@ -1006,6 +1002,16 @@ main {
           line-height: 48px;
           text-align: center;
           color: #141414;
+        }
+
+        .new_price {
+          margin-bottom: 24px;
+          font-family: Dela Gothic One;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 34px;
+          text-align: center;
+          color: #636363;
         }
 
         & .join_link {
@@ -1117,6 +1123,34 @@ main {
         }
 
         &:nth-child(4) {
+          max-width: 276px;
+          width: 100%;
+          margin-left: auto;
+          margin-bottom: 22px;
+        }
+
+        &:nth-child(5) {
+          max-width: 312px;
+          width: 100%;
+          margin-right: auto;
+          margin-bottom: 12px;
+        }
+
+        &:nth-child(6) {
+          max-width: 264px;
+          width: 100%;
+          margin-left: auto;
+          margin-bottom: 22px;
+        }
+
+        &:nth-child(7) {
+          max-width: 270px;
+          width: 100%;
+          margin-right: auto;
+          margin-bottom: 22px;
+        }
+
+        &:nth-child(8) {
           max-width: 276px;
           width: 100%;
           margin-left: auto;
