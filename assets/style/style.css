@@ -291,14 +291,13 @@ main {
 }
 .top_content .container p {
   margin-top: 24px;
-  font-family: Neucha;
+  font-family: "Calmius Sans";
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.08em;
   text-align: left;
   width: 100%;
-  text-transform: uppercase;
   padding: 0 15px;
 }
 .top_content .container p span {
@@ -496,7 +495,7 @@ main {
   width: 100%;
   border-radius: 12px;
   font-family: Calmius Sans;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   text-align: left;
