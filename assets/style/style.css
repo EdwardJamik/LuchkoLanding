@@ -193,7 +193,7 @@ main {
   z-index: 3;
   overflow: hidden;
 }
-.top_content::before {
+.top_content .video_bg {
   content: " ";
   position: absolute;
   left: 0;
@@ -201,10 +201,6 @@ main {
   bottom: 20.8vh;
   height: 68vh;
   width: 100%;
-  background-image: url(/assets/images/fire_bg_3.gif);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
   mix-blend-mode: screen;
   z-index: -2;
 }

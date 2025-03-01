@@ -24,7 +24,7 @@ main {
   z-index: 3;
   overflow: hidden;
 
-  &::before {
+  & .video_bg {
     content: " ";
     position: absolute;
     left: 0;
@@ -32,13 +32,29 @@ main {
     bottom: 20.8vh;
     height: 68vh;
     width: 100%;
-    background-image: url(/assets/images/fire_bg_3.gif);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+    // background-image: url(/assets/images/fire_bg.gif);
+    // background-repeat: no-repeat;
+    // background-position: bottom;
+    // background-size: cover;
     mix-blend-mode: screen;
     z-index: -2;
   }
+
+  // &::before {
+  // content: " ";
+  // position: absolute;
+  // left: 0;
+  // right: 0;
+  // bottom: 20.8vh;
+  // height: 68vh;
+  // width: 100%;
+  // background-image: url(/assets/images/fire_bg.gif);
+  // background-repeat: no-repeat;
+  // background-position: bottom;
+  // background-size: cover;
+  // mix-blend-mode: screen;
+  // z-index: -2;
+  // }
 
   &::after {
     content: " ";
