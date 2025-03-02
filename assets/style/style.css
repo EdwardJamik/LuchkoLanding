@@ -1015,9 +1015,9 @@ main {
   line-height: 48px;
   text-align: center;
   color: #141414;
+  margin-bottom: 24px;
 }
 .tarifs .container > .tarif_list > li .new_price {
-  margin-bottom: 24px;
   font-family: Dela Gothic One;
   font-size: 18px;
   font-weight: 400;
