@@ -1017,6 +1017,25 @@ main {
   color: #141414;
   margin-bottom: 24px;
 }
+.tarifs .container > .tarif_list > li .tarifs_block {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.tarifs .container > .tarif_list > li .tarifs_block span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(20deg);
+  font-size: 48px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
 .tarifs .container > .tarif_list > li .new_price {
   font-family: Dela Gothic One;
   font-size: 18px;

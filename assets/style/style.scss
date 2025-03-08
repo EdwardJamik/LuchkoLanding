@@ -1037,6 +1037,27 @@ main {
           margin-bottom: 24px;
         }
 
+        .tarifs_block {
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.7);
+          border-radius: 20px;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+
+          & span {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(20deg);
+            font-size: 48px;
+            text-transform: uppercase;
+            width: 100%;
+            text-align: center;
+          }
+        }
+
         .new_price {
           // margin-bottom: 24px;
           font-family: Dela Gothic One;
