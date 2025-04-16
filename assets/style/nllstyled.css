@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Calmius Sans";
-  src: local("Calmius Sans Low"), local("Calmius-Sans-Low"), url("../font/CalmiusSans-Low.woff2") format("woff2"), url("../font/CalmiusSans-Low.woff") format("woff"), url("../font/CalmiusSans-Low.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 *,
 *:before,
 *:after {
@@ -11,7 +5,7 @@
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: "Dela Gothic One", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -26,11 +20,13 @@
 a:focus,
 a:active {
   outline: none;
+  color: #1c1c1c;
 }
 
 a,
 a:visited {
   text-decoration: none;
+  color: #1c1c1c;
 }
 
 a:hover {
@@ -48,7 +44,7 @@ input,
 button,
 textarea {
   font-family: inherit;
-  color: #fff;
+  color: #1c1c1c;
 }
 
 textarea {
@@ -120,7 +116,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
-  color: #fff;
+  color: #1c1c1c;
 }
 
 body {
@@ -128,7 +124,10 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background: #000;
+  background-image: url("../images/mainBg2.png");
+  background-position: top;
+  background-size: cover;
+  background-color: #ece6e0;
 }
 
 html,
